@@ -2297,6 +2297,7 @@ ol {
   position: relative;
   z-index: 0;
   background-color: #F4F7FA;
+  padding-bottom: 0;
 }
 
 .services .section-title {
@@ -2345,7 +2346,7 @@ ol {
 }
 
 .services .single-service {
-  min-height: 300px;
+  min-height: 21rem;
   margin-top: 30px;
   border-radius: 20px;
   background-color: white;
@@ -2512,6 +2513,12 @@ ol {
 ========================================*/
 .call-action {
   background-color: #F4F7FA;
+  padding: 3rem 0;
+}
+
+.call-action__price {
+  font-size: 2.5rem;
+  margin: 1rem 0;
 }
 
 .call-action .inner-content {
@@ -2543,7 +2550,7 @@ ol {
 }
 
 .call-action .text h2 {
-  font-size: 28px;
+  font-size: 1.5rem;
   font-weight: 700;
   line-height: 42px;
   color: #081828;
