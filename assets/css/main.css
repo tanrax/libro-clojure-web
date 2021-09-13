@@ -953,7 +953,6 @@ ol {
   font-weight: 700;
   position: relative;
   line-height: 28px;
-  text-transform: capitalize;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -996,7 +995,6 @@ ol {
   position: relative;
   padding-right: 14px;
   margin-right: 14px;
-  text-transform: capitalize;
   color: #fff;
 }
 
@@ -1077,14 +1075,12 @@ ol {
   display: inline-block;
   margin-bottom: 20px;
   color: var(--color-primary);
-  text-transform: capitalize;
 }
 
 .section-title h2 {
   font-size: 34px;
   margin-bottom: 20px;
   line-height: 42px;
-  text-transform: capitalize;
   position: relative;
   font-weight: 700;
 }
@@ -1300,7 +1296,6 @@ ol {
 
 .button .btn {
   display: inline-block;
-  text-transform: capitalize;
   font-size: 15px;
   font-weight: 500;
   padding: 14px 30px;
@@ -1828,7 +1823,6 @@ ol {
   font-weight: 500;
   transition: all 0.3s ease-out 0s;
   position: relative;
-  text-transform: capitalize;
 }
 
 .navbar-nav .nav-item a::after {
@@ -1928,7 +1922,6 @@ ol {
   width: 100%;
   font-size: 14px;
   font-weight: 500;
-  text-transform: capitalize;
   position: relative;
   z-index: 1;
   border-radius: 4px;
@@ -2044,6 +2037,10 @@ ol {
   background-repeat: no-repeat;
   background-color: var(--color-secundary);
   z-index: 0;
+}
+
+.hero-area__subtitle {
+  font-size: 1.5rem;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -2217,8 +2214,8 @@ ol {
 }
 
 .book {
-  width: 200px;
-  height: 200px;
+  width: 288px;
+  height: 400px;
   position: relative;
   transform-style: preserve-3d;
   transform: rotateY(-30deg);
@@ -2235,8 +2232,8 @@ ol {
   top: 0;
   left: 0;
   background-color: red;
-  width: 200px;
-  height: 300px;
+  width: 288px;
+  height: 400px;
   transform: translateZ(25px);
   background-color: #01060f;
   border-radius: 0 2px 2px 0;
@@ -2247,10 +2244,10 @@ ol {
   position: absolute;
   content: " ";
   background-color: blue;
-  left: 0;
+  left: 90px;
   top: 3px;
   width: 48px;
-  height: 294px;
+  height: 396px;
   transform: translateX(172px) rotateY(90deg);
   background: linear-gradient(
           90deg,
@@ -2283,8 +2280,8 @@ ol {
   top: 0;
   left: 0;
   content: " ";
-  width: 200px;
-  height: 300px;
+  width: 288px;
+  height: 400px;
   transform: translateZ(-25px);
   background-color: #01060f;
   border-radius: 0 2px 2px 0;
@@ -2588,7 +2585,7 @@ ol {
 	Footer CSS
 ========================================*/
 .footer {
-  background-color: #081828;
+  background-color: #5881d8;
   position: relative;
   padding-bottom: 0;
 }
@@ -2811,12 +2808,10 @@ ol {
   border-top: 1px solid rgba(238, 238, 238, 0.288);
   padding-top: 30px;
   padding-bottom: 30px;
-  margin-top: 80px;
 }
 
 @media (max-width: 767px) {
   .footer .copyright-area .inner-content {
-    margin-top: 50px;
     text-align: center;
   }
 }
