@@ -38,6 +38,10 @@ p {
   padding: 0;
 }
 
+a {
+  color: var(--color-primary);
+}
+
 .navbar-toggler:focus,
 a:focus,
 input:focus,
@@ -2589,6 +2593,43 @@ ol {
     margin-top: 30px;
   }
 }
+
+/*======================================
+	Author
+========================================*/
+.author {
+  padding: 6rem 0;
+
+}
+
+.author p {
+    margin: 2rem 0;
+}
+
+
+.author__title {
+  margin-bottom: 5rem;
+}
+
+
+.author__image {
+  text-align: right;
+}
+
+
+@media (max-width: 767px) {
+  .author__image {
+    text-align: center;
+  }
+}
+
+.author__image img {
+  object-fit: cover;
+  width: 80%;
+  border-radius: 50%;
+  border: 3px solid var(--color-primary);
+}
+
 
 /*======================================
 	Footer CSS
