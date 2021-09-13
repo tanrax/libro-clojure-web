@@ -2153,6 +2153,9 @@ ol {
 }
 
 @media (max-width: 767px) {
+  .hero-area {
+    padding-top: 3rem;
+  }
   .hero-area .hero-content {
     padding: 0 10px;
     text-align: center;
@@ -2183,7 +2186,6 @@ ol {
 
 @media only screen and (min-width: 768px) and (max-width: 991px), (max-width: 767px) {
   .hero-area .hero-image {
-    display: none;
   }
 }
 
@@ -2588,18 +2590,6 @@ ol {
   background-color: #5881d8;
   position: relative;
   padding-bottom: 0;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .footer {
-    padding-top: 30px;
-  }
-}
-
-@media (max-width: 767px) {
-  .footer {
-    padding-top: 20px;
-  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
