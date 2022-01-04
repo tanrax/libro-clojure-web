@@ -2628,16 +2628,16 @@ ol {
 }
 
 .index_book__current::after {
-  content: "¡Nuevo!";
+  content: "";
   position: absolute;
   width: 10rem;
-  height: 7rem;
+  height: 8rem;
   bottom: -9px;
   color: var(--color-secundary);
-  background-image: url('../images/book-index/arrow.png');
-  background-size: 5rem;
+  background-image: url('../images/book-index/arrow.webp');
+  background-size: 7rem;
   background-repeat: no-repeat;
-  background-position: left bottom;
+  background-position: 13px bottom;
   font-size: 1.3rem;
 }
 
@@ -2653,6 +2653,11 @@ ol {
 
   .index_book__item {
     text-align: center;
+  }
+
+
+  .index_book__current::after {
+    background-size: 5rem;
   }
 
 }
