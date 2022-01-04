@@ -2612,6 +2612,7 @@ ol {
 }
 
 .index_book__item {
+  position: relative;
   margin: 1rem 0;
   color: var(--color-primary);
   font-weight: bold;
@@ -2624,6 +2625,36 @@ ol {
 .call-action--index {
   position: sticky !important;
   top: 2rem;
+}
+
+.index_book__current::after {
+  content: "¡Nuevo!";
+  position: absolute;
+  width: 10rem;
+  height: 7rem;
+  bottom: -9px;
+  color: var(--color-secundary);
+  background-image: url('../images/book-index/arrow.png');
+  background-size: 5rem;
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .index_book__title {
+    text-align: center;
+  }
+
+  .index_book__items {
+    padding-left: 0;
+  }
+
+
+  .index_book__item {
+    text-align: center;
+  }
+
 }
 
 
