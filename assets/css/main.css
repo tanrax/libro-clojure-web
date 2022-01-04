@@ -2595,6 +2595,39 @@ ol {
 }
 
 /*======================================
+  Index book
+========================================*/
+
+.index_book__items {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style-type: decimal;
+  padding-left: 1.25rem;
+}
+
+.index_book__title {
+  font-size: 2rem;
+}
+
+.index_book__item {
+  margin: 1rem 0;
+  color: var(--color-primary);
+  font-weight: bold;
+}
+
+.index_book__item--disabled {
+  opacity: .5;
+}
+
+.call-action--index {
+  position: sticky !important;
+  top: 2rem;
+}
+
+
+/*======================================
 	Author
 ========================================*/
 .author {
